@@ -1,0 +1,94 @@
+body
+{
+    background : #CCC;
+}
+
+#Header .a:hover
+{
+    color: #FFF;
+}
+
+#bg-img
+{
+    background: url('../images/bg3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+#About
+{
+    margin-top: -200px;
+}
+
+#About .fa
+{
+    color: white;
+}
+
+#About span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#About hr
+{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#Skills span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#Skills hr
+{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#Grades span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#Grades hr
+{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#hELLO hr
+{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+#hELLO span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+
+#ContactMe hr
+{
+    border-width: 2px;
+    margin-top: 6px;
+}
+#ContactMe span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#ContactMe hr
+{
+    border-width: 2px;
+    margin-top: 6px;
+}
+
+
+.card-link
+{
+    color: rgb(97, 81, 81);
+}

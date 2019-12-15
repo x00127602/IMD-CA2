@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/mystyle.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <title> Rachel's Portfolio </title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+  <!--NavBar-->
+  <div id="HeaderSection">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#NavBar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">
+          <h3>Rachel's Portfolio</h3>
+        </a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#About" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#Skills" class="nav-link">Work History</a></li>
+            <li class="nav-item"><a href="#Grades" class="nav-link">Educational History</a></li>
+            <li class="nav-item"><a href="#hELLO" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#ContactMe" class="nav-link">Contact Me</a></li>
+            <li class="nav-item"><a href="file://C:/Users/rache/Desktop/College/4thYear/IMD/CA2/info.html" class="nav-link">Info For Ben</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ShowCase -->
+  <div id="bg-img"></div>
+
+  <!-- About Me -->
+  <div id="About">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="AboutData">
+            <div class="card bg-white">
+              <div class="card-title my-5">
+                <div class="media">
+                  <img src="images/me.jpg" width="250" height="250"
+                    class="img-fluid rounded-top mx-5 d-none d-lg-block">
+                  <div class="media-body">
+                    <br>
+                    <h3 class="display-4 ml-5">Rachel Hawe</h3>
+                    <p class="text-muted ml-5"> Computing Student</p>
+                    <div class="container">
+                      <table class="table table-responsive ml-3">
+                        <tr>
+                          <td class="text-muted">Date Of Birth</td>
+                          <td> : </td>
+                          <td> 8th July 1996</td>
+                        </tr>
+                        <tr>
+                          <td class="text-muted">Email</td>
+                          <td> : </td>
+                          <td> rachelhawe96@gmail.com</td>
+                        </tr>
+                        <tr>
+                          <td class="text-muted">Phone No.</td>
+                          <td> : </td>
+                          <td> (+353) 087 2695863</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer bg-dark">
+                <a href="#"><i class="fa fa-facebook fa-2x mx-3"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-2x mx-3"></i></a>
+                <a href="#"><i class="fa fa-github fa-2x mx-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <span class="bg-dark text-white">About Me</span>
+          <hr class="bg-dark">
+          <p class="lead text-justify">Excellent team worker with strong comminication skills. Confident at taking own
+            initiative to solve problems and work independently. Eager to learn and develop within an organisation while
+            meeting the goals and targets of my role. Excellent understanding of computers in the field of Software. I
+            am familliar with Java, C++, C# coding along with skills in networking, web design, SQL and the Operating
+            System platforms. Seeking a challenging computing posintion in a technology driven companny while also
+            working within a friendly enviroment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Skills-->
+  <div id="Skills">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <span class="bg-dark text-white">Work History</span>
+          <hr class="bg-dark">
+              <div id="accordion">
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="card-link" data-toggle="collapse" href="#collapseIT">
+                        IT Related
+                      </a>
+                    </div>
+                    <div id="collapseIT" class="collapse show" data-parent="#accordion1">
+                      <div class="card-body">
+                        <div id="accordion">
+                       <div class="card">
+                        <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseAWS">
+                  Amazon Web Service (January 2019 - July 2019)
+                </a>
+              </div>
+              <div id="collapseAWS" class="collapse" data-parent="#accordion2">
+                <div class="card-body">
+                  <b>Role: Cloud Support Associate Intern</b> 
+                    <br>
+                    <b>Duties: </b><br>
+                    <li>Assisting and answering customer queries through premium support cases.</li>
+                    <li>Troubleshooting cloud architectures for a variety of clients aswell as troubleshooting AWS features.</li>
+                    <li>Attending and leading training sessions in services we provided.</li>
+                    <li>Took part in projects</li>
+                    <b>Nature of Work:</b> <br>
+                    6 months of Work Placement through TU Dublin - Tallaght Campus College.
+                    <br>
+                    <b>References:</b> <br>
+                      All available on request.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseKBC">
+                    KBC Bank (January 2016)
+                  </a>
+                </div>
+                <div id="collapseKBC" class="collapse" data-parent="#accordion2">
+                  <div class="card-body">
+                    <b>Role: Intern</b> 
+                    <br>
+                    <b>Duties: </b><br>
+                    <li>DARS (copying calls to a blank CD at customers request)</li>
+                    <li>Added members to office groups and email client groups.</li>
+                    <li>Took part in new app testing and deployment working on bug fixes</li>
+                    <li>Observed Security Firewall, Mobile Application, Programming, Web, and ICT helpdesk teams.</li>
+                    <b>Nature of Work:</b> <br>
+                    3 Weeks of Work Experience through PLC
+                    <br>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
+
+
+              <div id="accordion">
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="card-link" data-toggle="collapse" href="#collapseRetail">
+                        Retail Related
+                      </a>
+                    </div>
+                    <div id="collapseRetail" class="collapse show" data-parent="#accordion1">
+                      <div class="card-body">
+                        <div id="accordion">
+              <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseW">
+                      The Works (May 2017 - November 2018)
+                    </a>
+                  </div>
+                  <div id="collapseW" class="collapse" data-parent="#accordion2">
+                    <div class="card-body">
+                      <b>Role: Sales Associate</b> 
+                      <br>
+                      <b>Duties: </b><br>
+                      All available on request.<br>
+                      <b>References:</b> <br>
+                      All available on request.
+                     <br>
+                    </div>
+                  </div>
+                </div>
+
+              <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseGS">
+                      Gamestop (November 2016 - May 2017)
+                    </a>
+                  </div>
+                  <div id="collapseGS" class="collapse" data-parent="#accordion2">
+                    <div class="card-body">
+                      <b>Role: Key Holder</b> 
+                      <br>
+                      <b>Duties: </b><br>
+                      All available on request.<br>
+                      <b>References:</b> <br>
+                      All available on request.
+                     <br>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                      <a class="card-link" data-toggle="collapse" href="#collapseHMV">
+                        HMV (October 2015 - August 2016)
+                      </a>
+                    </div>
+                    <div id="collapseHMV" class="collapse" data-parent="#accordion2">
+                      <div class="card-body">
+                        <b>Role: Sales Associate</b> 
+                        <br>
+                        <b>Duties: </b><br>
+                        All available on request.<br>
+                        <b>References:</b> <br>
+                      All available on request.
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+  
+</div>
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Grades-->
+  <div id="Grades">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <span class="bg-dark text-white">Educational History</span>
+          <hr class="bg-dark">
+          <div id="accordion">
+
+
+
+            <div class="card">
+              <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseCollege">
+                  College - Technology University Dublin Tallaght Campus
+                </a>
+              </div>
+              <div id="collapseCollege" class="collapse" data-parent="#accordion1">
+                <div class="card-body">
+                  <div id="accordion">
+
+                    <div class="card">
+                      <b>Attended : Presently - 2016</b>
+                      <b>Select a Year To See Grades:</b>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                            Year 4 - Computing
+                          </a>
+                        </div>
+                        <div id="collapseFour" class="collapse" data-parent="#accordion2">
+                          <div class="card-body">
+                            <b>Semster 7</b>
+                            <table class="table table-responsive ml-3">
+                              <tr>
+                                <td class="text-muted">Results Available Feburary 2020</td>
+                              </tr>
+                            </table>
+                            <b>Semster 8</b>
+                            <table class="table table-responsive ml-3">
+                              <tr>
+                                <td class="text-muted">Attending in January 2020</td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                            Year 3 - Computing
+                          </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion2">
+                          <div class="card-body">
+                            <b>Semster 5</b>
+                            <table class="table table-responsive ml-3">
+                              <tr>
+                                <td class="text-muted">Data Analysis</td>
+                                <td> : </td>
+                                <td>B-</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Server-Side Web Development</td>
+                                <td> : </td>
+                                <td>B-</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Cloud Services and Distributed Computing</td>
+                                <td> : </td>
+                                <td>C</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Big Data Technologies</td>
+                                <td> : </td>
+                                <td>C</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Operating Systems 2</td>
+                                <td> : </td>
+                                <td>C</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Data Structures and Algorithms</td>
+                                <td> : </td>
+                                <td>D</td>
+                              </tr>
+                            </table>
+
+                            <b>Semster 6</b>
+                            <table class="table table-responsive ml-3">
+                              <tr>
+                                <td class="text-muted">Attended Intership at AWS</td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header">
+                          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            Year 2 - Computing
+                          </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion2">
+                          <div class="card-body">
+                            <b>Semster 3</b>
+                            <table class="table table-responsive ml-3">
+                              <tr>
+                                <td class="text-muted">Software Quality Assessment and Testing</td>
+                                <td> : </td>
+                                <td>B</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Database Design and Programming</td>
+                                <td> : </td>
+                                <td>B-</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Web and Mobile Design and Development</td>
+                                <td> : </td>
+                                <td>B-</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Software Development 3</td>
+                                <td> : </td>
+                                <td>C+</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Networking 1</td>
+                                <td> : </td>
+                                <td>C</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Discreate Mathementics 2</td>
+                                <td> : </td>
+                                <td>C</td>
+                              </tr>
+                            </table>
+
+                            <b>Semster 4</b>
+                            <table class="table table-responsive ml-3">
+                              <tr>
+                                <td class="text-muted">Project</td>
+                                <td> : </td>
+                                <td>B</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Information Security</td>
+                                <td> : </td>
+                                <td>B-</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Networking 2</td>
+                                <td> : </td>
+                                <td>C+</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Object Oriented Analysis and Design</td>
+                                <td> : </td>
+                                <td>C</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Software Development 4</td>
+                                <td> : </td>
+                                <td>D</td>
+                              </tr>
+
+                              <tr>
+                                <td class="text-muted">Management Science</td>
+                                <td> : </td>
+                                <td>D</td>
+                              </tr>
+
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">
+                          Year 1 - Computing
+                        </a>
+                      </div>
+                      <div id="collapseOne" class="collapse" data-parent="#accordion2">
+                        <div class="card-body">
+                          <b>Semster 1</b>
+                          <table class="table table-responsive ml-3">
+                            <tr>
+                              <td class="text-muted">Software Development 1</td>
+                              <td> : </td>
+                              <td> B+</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Learning To Learn</td>
+                              <td> : </td>
+                              <td> B+</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Business and Information Systesms</td>
+                              <td> : </td>
+                              <td> B</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Computer Architecture</td>
+                              <td> : </td>
+                              <td> C</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Fundamentals of Interface & Web</td>
+                              <td> : </td>
+                              <td> C</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Discrete Mathematics</td>
+                              <td> : </td>
+                              <td> C</td>
+                            </tr>
+                          </table>
+
+                          <b>Semster 2</b>
+                          <table class="table table-responsive ml-3">
+                            <tr>
+                              <td class="text-muted">Social Media Communications</td>
+                              <td> : </td>
+                              <td> B+</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Statistics</td>
+                              <td> : </td>
+                              <td> B-</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Database Fundamentals</td>
+                              <td> : </td>
+                              <td> C+</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Operating Systems Fundamentals</td>
+                              <td> : </td>
+                              <td> C+</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Software Development 2</td>
+                              <td> : </td>
+                              <td> C+</td>
+                            </tr>
+
+                            <tr>
+                              <td class="text-muted">Object Oriented System Analysis</td>
+                              <td> : </td>
+                              <td> C</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#collapsePLC">
+                PLC - Software Design and Mobile Applications (QQI Level 5 - CFE Dundrum ) 
+              </a>
+            </div>
+            <div id="collapsePLC" class="collapse" data-parent="#accordion1">
+              <div class="card-body">
+                <table class="table table-responsive ml-2">
+                  <b>Attended 2015 - 2016</b> <br>
+                  <b>No Results Available from PLC</b>
+                  <tr>
+                    <td class="text-muted">Mobile Application</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Java Programming</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Software Architecture</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Communications</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Work Experience</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Database</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Mathmatics</td>
+                  </tr>
+
+                </table>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#collapseLC">
+               Leaving Certificate - St. Colmciles Community School.
+              </a>
+            </div>
+            <div id="collapseLC" class="collapse" data-parent="#accordion1">
+              <div class="card-body">
+                <table class="table table-responsive ml-2">
+                  <b>Attended 2014 - 2015</b> <br>
+                  <b>Subjects</b>
+                  <tr>
+                    <td class="text-muted">English</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Maths</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Spanish</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Art</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Geography</td>
+                  </tr>
+
+                  <tr>
+                    <td class="text-muted">Biology</td>
+                  </tr>
+
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Achievements and Projects-->
+    <div id="hELLO">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <span class="bg-dark text-white">Skills, Achievements and Projects</span>
+            <hr class="bg-dark">
+            <p class="lead text-justify">
+              <li>2020 - Coming soon making an application for android which integrates with machine learning and the Fitbit API.</li>
+              <li>2019 - Using Tableau created a study which shows the Outcomes for the World Happiness report</li>
+              <li>2018 - Offered a position in AWS Premium Support Team once completion of college</li>
+              <li>2017 - Project in school consisting of making a CRUD website using java playframework.</li>
+              <li>2017 - PRO for Radio Society winning BICs award that year.</li>
+              <li>2015 - Completed Gaisce President’s Award.</li>    
+              <br>
+              <div class="container">
+                <table class="table table-responsive ml-10">
+                  <tr>
+                    <td class="text-muted">Projects can be found on my Github : </td>
+                    <td class="text-muted"><a href ="https://github.com/x00127602">https://github.com/x00127602</a></td>
+                  </tr>                  
+                </table>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact Me-->
+    <div id="ContactMe">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <span class="bg-dark text-white">Contact Me</span>
+            <hr class="bg-dark">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name" name="">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email Address" name="email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="4"></textarea>
+            </div>
+            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
